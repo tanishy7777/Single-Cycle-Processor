@@ -2,6 +2,18 @@
 Implementing a basic single cycle processor in verilog
 
 
+Simulation Results Demonstarting the following instructions
+
+```assembly
+MOV ACC, R1 ; Load R1 in ACC
+XRA R1 ; clears ACC
+ADD R5 ; ACC+R5
+ADD R6; ACC + R6 (which is R5+R6)
+MOV R7, ACC;
+```
+![image](https://github.com/user-attachments/assets/01a9064c-d179-4569-99cc-a0e6bceb2187)
+
+
 The following instructions are supported
 ### Instruction Set Architecture
 
@@ -29,15 +41,5 @@ The following instructions are supported
 
 
 
-Simulation Results Demonstarting the following instructions
-
-```assembly
-MOV ACC, R1 ; Load R1 in ACC
-XRA R1 ; clears ACC
-ADD R5 ; ACC+R5
-ADD R6; ACC + R6 (which is R5+R6)
-MOV R7, ACC;
-```
-![image](https://github.com/user-attachments/assets/01a9064c-d179-4569-99cc-a0e6bceb2187)
 
 
